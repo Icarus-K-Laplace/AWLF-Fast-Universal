@@ -1,0 +1,10 @@
+# Core Dependencies
+numpy>=1.21.0
+numba>=0.56.0
+opencv-python-headless>=4.5.0  # Use headless for server/docker envs
+
+# Optional: Industrial I/O (Recommended for 16-bit TIFF)
+tifffile>=2022.0.0
+
+# Dev / Benchmark tools (Optional)
+# memory_profiler

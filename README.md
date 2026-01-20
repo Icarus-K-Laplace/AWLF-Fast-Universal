@@ -11,7 +11,7 @@ High-performance, JIT-compiled denoising engine for uncooled thermal imaging. Fe
 Unlike the [Reference Implementation](https://github.com/Icarus-K-Laplace/Adaptive-Weighted-Local-Fitting-AWLF-Denoiser), this engine is optimized for **Production Environments**.
 ## 🧩 Algorithm Pipeline
 
-![AWLF-Fast Pipeline](Untitled diagram-2026-01-20-105901.png)
+![AWLF-Fast Pipeline](./Untitled diagram-2026-01-20-105901.png)
 
 **Key Innovations:**
 *   **Numba JIT Compilation**: Critical loops are compiled to native machine code, achieving 60+ FPS on 1024x1024 images.
